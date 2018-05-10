@@ -41,8 +41,6 @@ ng serve
 ```
 The sample website should be hosted on http://localhost:4200/ :) 
 
-
-
 ## Deployment
 
 ### Angular Project 
@@ -56,11 +54,11 @@ The sample website should be hosted on http://localhost:4200/ :)
 
 * [jQuery] - Javascript library for "write less do more"
 * [Angular] - A framework and lets you extend HTML syntax
-* [Node.js] - Dependency Management
-* [postgresSQL] - Used to generate RSS Feeds
-* [Javascript] - Used to generate RSS Feeds
+* [Node.js] - Node.js is a JavaScript runtime environment that is useful for servers
+* [postgresSQL] - Object-relational database system
 
-NOTE: 
+## Notes 
+ 
 - Library: a collection of functions which are useful when writing web apps. Your code is in charge and it calls into the library when it sees fit. E.g., jQuery.
-- FrameworkS: a particular implementation of a web application, where your code fills in the details. The framework is in charge and it calls into your code when it needs something app specific. E.g., durandal, ember, etc.
+- Frameworks: a particular implementation of a web application, where your code fills in the details. The framework is in charge and it calls into your code when it needs something app specific. E.g., durandal, ember, etc.
 
