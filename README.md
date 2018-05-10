@@ -52,10 +52,11 @@ The sample website should be hosted on http://localhost:4200/ :)
 
 ## Built With
 
-* [jQuery] - Javascript library for "write less do more"
-* [Angular] - A framework and lets you extend HTML syntax
-* [Node.js] - Node.js is a JavaScript runtime environment that is useful for servers
-* [postgresSQL] - Object-relational database system
+* jQuery - Javascript library for "write less do more"
+* Angular - A framework and lets you extend HTML syntax
+* Node.js - Node.js is a JavaScript runtime environment that is useful for servers
+* postgresSQL - Object-relational database system
+* Apache - Web server
 
 ## Notes 
  
