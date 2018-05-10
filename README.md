@@ -6,60 +6,61 @@ This is the codebase for the full stack web development of the elevator project.
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
+A step by step series of examples that tell you how to start your project
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
+Install Node.js
 
 ```
-until finished
+sudo apt-get update
+sudo apt-get install nodejs
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+Install npm (Package Manager)
 
 ```
-Give an example
+sudo apt-get install npm
 ```
-
-### And coding style tests
-
-Explain what these tests test and why
+Install typescript (May be optional) and angular-cli
 
 ```
-Give an example
+npm install -g @angular/cli
+npm install -g typescript
 ```
+Let Angular cli to do the work for creating your angular project
+
+```
+ng new the-name-of-project
+```
+
+```
+cd the-name-of-project
+ng serve
+```
+The sample website should be hosted on http://localhost:4200/ :) 
+
+
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+### Angular Project 
+```
+cd the-name-of-project
+ng serve
+```
+The sample website should be hosted on http://localhost:4200/ :) 
 
 ## Built With
 
-* [Jquery] - The web framework used
-* [Angular] - Dependency Management
+* [jQuery] - Javascript library for "write less do more"
+* [Angular] - A framework and lets you extend HTML syntax
 * [Node.js] - Dependency Management
 * [postgresSQL] - Used to generate RSS Feeds
 * [Javascript] - Used to generate RSS Feeds
+
+NOTE: 
+- Library: a collection of functions which are useful when writing web apps. Your code is in charge and it calls into the library when it sees fit. E.g., jQuery.
+- FrameworkS: a particular implementation of a web application, where your code fills in the details. The framework is in charge and it calls into your code when it needs something app specific. E.g., durandal, ember, etc.
+
