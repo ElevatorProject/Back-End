@@ -9,13 +9,13 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Elevator Control</h1>
+	  <h2 className="App-info">Control your elevator</h2>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+	<div id="ElevatorButton"></div>
       </div>
     );
   }
 }
 
+    <div id="root"></div>
 export default App;
